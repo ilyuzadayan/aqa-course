@@ -1,0 +1,50 @@
+2024-03-15 10:30:45 [INFO]  Request to /api/jokes
+2024-03-15 10:30:46 [ERROR] Connection timeout
+2024-03-15 10:30:47 [WARN]  Slow response: 2500ms
+2024-03-15 10:30:48 [INFO]  User login successful: user_id=1024
+2024-03-15 10:30:49 [DEBUG] Cache miss for key: session_abc123
+2024-03-15 10:30:50 [INFO]  Request to /api/users/profile
+2024-03-15 10:30:51 [ERROR] Database connection failed: retrying in 5s
+2024-03-15 10:30:52 [WARN]  High memory usage: 85%
+2024-03-15 10:30:53 [INFO]  Static asset served: /css/main.css
+2024-03-15 10:30:54 [INFO]  Request to /api/products/list
+2024-03-15 10:30:55 [ERROR] Invalid JSON payload in request body
+2024-03-15 10:30:56 [WARN]  Deprecated API endpoint called: /v1/legacy
+2024-03-15 10:30:57 [INFO]  Email notification sent to admin@example.com
+2024-03-15 10:30:58 [DEBUG] Query execution time: 120ms
+2024-03-15 10:30:59 [INFO]  File uploaded: report_q1.pdf (2.4MB)
+2024-03-15 10:31:00 [ERROR] Permission denied for user_id=505
+2024-03-15 10:31:01 [WARN]  Rate limit approaching for IP 192.168.1.10
+2024-03-15 10:31:02 [INFO]  Scheduled job started: cleanup_temp_files
+2024-03-15 10:31:03 [INFO]  Request to /api/orders/status
+2024-03-15 10:31:04 [ERROR] Service unavailable: payment-gateway
+2024-03-15 10:31:05 [WARN]  Slow response: 3100ms
+2024-03-15 10:31:06 [INFO]  User logout: user_id=1024
+2024-03-15 10:31:07 [DEBUG] Session invalidated: session_abc123
+2024-03-15 10:31:08 [INFO]  Health check passed
+2024-03-15 10:31:09 [ERROR] Null pointer exception in module: auth-service
+2024-03-15 10:31:10 [WARN]  Disk space low: /var/log (90% used)
+2024-03-15 10:31:11 [INFO]  New user registered: user_id=1025
+2024-03-15 10:31:12 [INFO]  Request to /api/search?q=laptop
+2024-03-15 10:31:13 [ERROR] Timeout waiting for upstream service
+2024-03-15 10:31:14 [WARN]  Certificate expires in 7 days
+2024-03-15 10:31:15 [INFO]  Background task completed: data_sync
+2024-03-15 10:31:16 [DEBUG] Redis connection pool size: 15/50
+2024-03-15 10:31:17 [INFO]  Request to /api/cart/add
+2024-03-15 10:31:18 [ERROR] Duplicate entry found in database
+2024-03-15 10:31:19 [WARN]  Unusual login location detected for user_id=1025
+2024-03-15 10:31:20 [INFO]  Password reset requested for user_id=1025
+2024-03-15 10:31:21 [INFO]  Request to /api/settings/update
+2024-03-15 10:31:22 [ERROR] Failed to send SMS verification code
+2024-03-15 10:31:23 [WARN]  Slow response: 4050ms
+2024-03-15 10:31:24 [INFO]  Webhook delivered successfully to partner_api
+2024-03-15 10:31:25 [DEBUG] Garbage collection paused for 15ms
+2024-03-15 10:31:26 [INFO]  Request to /api/notifications
+2024-03-15 10:31:27 [ERROR] Internal server error: stack trace logged
+2024-03-15 10:31:28 [WARN]  Thread pool exhaustion warning: 95% utilized
+2024-03-15 10:31:29 [INFO]  System backup initiated
+2024-03-15 10:31:30 [INFO]  Request to /api/analytics/dashboard
+2024-03-15 10:31:31 [ERROR] Configuration file missing: config_prod.yaml
+2024-03-15 10:31:32 [WARN]  API version v1 is deprecated, please upgrade to v2
+2024-03-15 10:31:33 [INFO]  User profile updated: user_id=1025
+2024-03-15 10:31:34 [DEBUG] Latency check: avg 45ms over last 100 requests

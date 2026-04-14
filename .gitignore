@@ -1,0 +1,36 @@
+# Maven
+target/
+*.jar
+*.war
+*.class
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Логи и отчёты
+logs/
+*.log
+allure-results/
+allure-report/
+
+# Секреты
+.env
+secrets.properties
+*.key
